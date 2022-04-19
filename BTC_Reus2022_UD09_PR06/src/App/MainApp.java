@@ -39,15 +39,18 @@ public class MainApp {
 		 *
 		 * espectadores = new Espectador[numEspectadores];
 		 * for(int i=0; i<numEspectadores;i++){
-		 * 		EspectadorClass espectador = new EspectadorClass(generadorDeNombres(0, apellidos.lenght), generadorDeEdad(15,50), generadorDeDinero());
+		 * 		EspectadorClass espectador = new EspectadorClass(generadorDeNombres(0, apellidos.lenght), 
+		 * 				generadorDeEdad(15,50), 
+		 * 				generadorDeDinero());
 		 * }
 		 */
 	}
 	public static void sentarEspectadores(EspectadorClass[] espectadores) {
+		//TODO: sentar aleatoriamente
 		//TODO: solo sentar si tienen suficiente dinero y butaca libre y edad suficiente
 		//TODO: si asiento ocupado, buscar otro
 	}
-	
+	//TODO: Pasarlo al package TOOLS
 	//Generador de edades
 	public static int generadorDeEdad(int inicio, int cantidad) {
 		int edad=0;
